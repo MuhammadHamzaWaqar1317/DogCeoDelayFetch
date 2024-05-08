@@ -1,0 +1,72 @@
+#FavouriteSection{
+    height: 100vh;
+    background-color: rgb(254, 254, 231);
+}
+
+/* text-center text-8xl */
+
+.RandomBreed{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 1vw;
+    padding-bottom: 3vw;
+}
+
+/* flex flex-row flex-wrap gap-6 justify-around    overflow-x-hidden mt-20 */
+
+.Random-breed{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* gap: 2vw; */
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: flex-start;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+}
+
+/* flex-grow-0 flex-shrink-0 w-1/5 */
+
+.Map-Img{
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    /*Width se align item kharab ho jata Why??*/
+}
+
+@media (max-width:1030px) {
+    .Random-breed {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* gap: 2vw; */
+        row-gap: 20px;
+        column-gap: 20px;
+        justify-content: flex-start;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+}
+
+@media (max-width:340px) {
+    .RandomBreed{
+        padding-top: 1vw;
+        padding-bottom: 5vw;
+        font-size: 12vw;
+    }
+}
+
+@media (max-width:600px) {
+    .Random-breed{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* gap: 2vw; */
+        
+        align-items: center;
+        justify-content: center;
+    
+    }
+}

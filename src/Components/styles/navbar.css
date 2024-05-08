@@ -1,0 +1,175 @@
+.Main-Flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2vw;
+}
+
+.Nav{
+    color: orangered;
+}
+
+/* flex flex-row justify-center gap-16 pr-2 pl-2 pt-1 bg-white rounded-lg
+ */
+
+.DOGCEO{
+    font-size: 30px;
+    color: orangered;
+}
+
+.Page-Links{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    border-radius: 20px;
+    background-color: white;
+    padding: 0.5vw;
+}
+
+/* flex flex-row justify-center gap-5 */
+
+.Button-Wrap{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+/* 
+bg-purple-600 pl-2 pr-2 text-2xl text-white rounded-3xl hover:bg-purple-700 */
+
+.Reserve-Button-Dog{
+    background-color: rgb(173, 8, 173);
+    color: white;
+}
+
+button{
+    border:5px solid  black;
+
+}
+
+.kam-burger{
+    display: none;
+}
+
+
+@media (max-width:850px )
+{
+
+    .Side-bar-Page-Links{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 4vw;
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 50vw;
+        background-color: rgba(255, 239, 232, 0.879);
+    }
+
+    .cancelSideBar{
+        display: flex;
+        flex-direction: row;
+        gap: 35vw;
+        margin-top: 2vw;
+        width: 100%;
+    }
+
+    .Nav{
+        padding-left: 4vw;
+        height: 35px;
+    }
+
+    .Main-Flex{
+        display: blocks;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .Page-Links{
+        display: none;
+    }
+
+    .Button-Wrap{
+        display: none;
+    }
+
+    .kam-burger{
+        display: block;
+        padding-left: 3vw;
+    }
+
+    
+
+    .Nav:hover{
+        background-color: rgba(128, 128, 128, 0.258);
+        border-radius: 20px;
+        width: 100%;
+        
+        transition: all 0.5s ease;
+    }
+}
+
+
+@media (max-width:600px )
+{
+
+    .Side-bar-Page-Links{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 4vw;
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 50vw;
+        background-color: rgba(255, 239, 232, 0.879);
+    }
+
+    .cancelSideBar{
+        display: flex;
+        flex-direction: row;
+        gap: 30vw;
+        margin-top: 2vw;
+        width: 100%;
+    }
+
+    .Nav{
+        padding-left: 4vw;
+        height: 35px;
+    }
+
+    .Main-Flex{
+        display: blocks;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .Page-Links{
+        display: none;
+    }
+
+    .Button-Wrap{
+        display: none;
+    }
+
+    .kam-burger{
+        display: block;
+        padding-left: 3vw;
+    }
+
+    
+
+    .Nav:hover{
+        background-color: rgba(128, 128, 128, 0.258);
+        border-radius: 20px;
+        width: 100%;
+        
+        transition: all 0.5s ease;
+    }
+}

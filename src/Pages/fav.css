@@ -1,0 +1,65 @@
+.Container{
+    background-color: rgba(255, 231, 176, 0.427);
+    height: 100vh;
+    width: 100vw;
+}
+
+.Flex-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1vw;
+    justify-content: space-around;
+}
+
+img{
+    /* height: 300px;
+    width: 300px;
+    max-width: 300px;
+    max-height: 300px; */
+    max-width: 75vw;
+    max-height: 80vh;
+    width: 75vw;
+    height: 80vw;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.map-Image{
+    
+    flex-grow: 0;
+    flex-shrink: 0;
+    
+}
+
+.Heart{
+    position: relative;
+    bottom: 3vw;
+    left: 16vw;
+}
+
+.text{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+}
+
+@media (max-width:600px) {
+    .Flex-main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1vw;
+        
+        align-items: center;
+    }
+
+    .Heart{
+        position: relative;
+        bottom: 9vw;
+        left: 62vw;
+    }
+
+    
+}

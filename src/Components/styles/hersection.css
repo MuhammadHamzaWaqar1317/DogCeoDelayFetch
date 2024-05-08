@@ -1,0 +1,292 @@
+/* h-screen flex justify-around items-center */
+
+.Responsive-Container{
+    display: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Regular-Container{
+    display: block;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#heroSection{
+    /* height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; */
+    
+}
+
+/* flex flex-col gap-2 mt-10 */
+
+.Hero-Text-Wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    /* margin-top: 0.5vw; */
+    align-items: flex-start;
+    align-self: flex-start;
+    padding-top: 12vw;
+}
+
+/* flex flex-col */
+
+.Inner-Text-Wrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    width: 36vw ;
+}
+
+.Text{
+    /* font-size: 50px; */
+    font-size: 3vw;
+    font-weight: bolder;
+}
+
+/* flex flex-row gap-4 */
+
+.Dropdown-Wrap{
+    display: flex;
+    gap: 1vw;
+}
+
+/* w-36 rounded-lg mt-8 bg-white text-black */
+
+.List{
+    background-color: white;
+    width: 9vw;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.List:hover{
+    border: 2px solid orangered;
+}
+
+.List option{
+    font-size: 22px;
+}
+
+
+
+.List option:hover{
+    background-color: aqua;
+}
+
+/* mt-10 w-21 rounded-full text-white p-2 hover:bg-purple-700 bg-purple-600 */
+
+.btn-Random-Breed{
+    background-color: orangered;
+    color: white;
+}
+
+/* h-50 max-w-sm max-h-96 mt-24 rounded-full  w-[300px] h-[300px] object-cover */
+
+.Img-hero{
+    /* max-width: 650px;
+    max-height: 650px;
+    height: 650px;
+    width: 650px; */
+    max-width: 50vw;
+    max-height: 80vh;
+    width: 50vw;
+    height: 80vw;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.btn-Random-Breed:hover{
+    border-color: orangered;
+    background-color: rgba(255, 68, 0, 0.8);
+}
+
+.gap{
+    margin: 1vw;
+}
+
+
+@media (max-width:340px) {
+    .List{
+        height: 8vw;
+    }
+
+    .Text-Para{
+        text-align: justify;
+        font-size: 4vw !important;
+    }
+
+    .btn-Random-Breed{
+        height: 1.5vw;
+        width: 40vw;
+       /*  white-space: nowrap; */
+        font-size: 12px;
+        height: 8vw;
+        text-align: center;
+        padding: 0px;
+        /* text-overflow: ellipsis; */
+        /* font-size: 19px; */
+        text-align: center;
+    }
+}
+
+@media (max-width:1030px) {
+    .Regular-Container{
+        display: none;
+    }
+
+    .Gap{
+        padding-top: 4vw;
+    }
+
+    .Responsive-Container{
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        align-items: center;
+    }
+
+    .Text-heading{
+        
+        font-size: 4vw;
+    }
+
+    .Text-Para{
+        text-align: justify;
+        font-size: 2vw;
+    }
+
+    .Img-hero {
+        max-width: 92vw;
+        max-height: 80vh;
+        width: 92vw;
+        height: 80vw;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .btn-List-flex{
+        display: flex;
+        gap: 4vw;
+        padding-top: 4vw;
+        padding-bottom: 3vw;
+    }
+
+    .List{
+        width: 18vw;
+    }
+
+    .List option{
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width:850px) {
+    .Regular-Container{
+        display: none;
+    }
+
+    .Gap{
+        padding-top: 4vw;
+    }
+
+    .Responsive-Container{
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        align-items: center;
+    }
+
+    .Text-heading{
+        
+        font-size: 5vw;
+    }
+
+    .Text-Para{
+        text-align: justify;
+        font-size: 2.3vw;
+    }
+
+    .Img-hero {
+        max-width: 92vw;
+        max-height: 80vh;
+        width: 92vw;
+        height: 80vw;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .btn-List-flex{
+        display: flex;
+        gap: 4vw;
+        padding-top: 4vw;
+        padding-bottom: 3vw;
+    }
+
+    .List{
+        width: 22vw;
+    }
+
+    .List option{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:600px) {
+    .Regular-Container{
+        display: none;
+    }
+
+    .Gap{
+        padding-top: 4vw;
+    }
+
+    .Responsive-Container{
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        align-items: center;
+    }
+
+    .Text-heading{
+        
+        font-size: 9vw;
+    }
+
+    .Text-Para{
+        text-align: justify;
+        font-size: 3.7vw;
+    }
+
+    .Img-hero {
+        max-width: 90vw;
+        max-height: 80vh;
+        width: 90vw;
+        height: 80vw;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .btn-List-flex{
+        display: flex;
+        gap: 4vw;
+        padding-top: 4vw;
+        padding-bottom: 3vw;
+    }
+
+    .List{
+        width: 35vw;
+    }
+
+    .List option{
+        font-size: 22px;
+    }
+}

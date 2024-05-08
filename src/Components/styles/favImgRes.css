@@ -1,0 +1,145 @@
+/* flex flex-col justify-center items-center gap-2 */
+
+.main-Fav-Img-Res{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+    position: relative;
+}
+
+/* rounded-lg w-[300px] max-h-[300px] h-[300px] object-cover */
+
+.Img{
+    /* max-width: 300px;
+    max-height: 300px;
+    height: 300px;
+    width: 300px; */
+    max-width: 23vw;
+    max-height: 23vw;
+    height: 23vw;
+    width: 23vw;
+    /* max-width: 75vw;
+    max-height: 80vh;
+    width: 75vw;
+    height: 80vw; */
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* relative bottom-9 left-24 h-12 */
+
+.Heart-Icon{
+    position: absolute;
+    bottom: 2vw;
+    left: 18.5vw;
+    height: 15px;
+    width: 15px;
+}
+
+.EmptyHeart{
+    position: absolute;
+   
+}
+
+
+@media (max-width:1440px) {
+    .Img {
+        max-width: 23vw;
+        max-height: 23vw;
+        height: 23vw;
+        width: 22.9vw;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width:1030px) {
+    .Img{
+        max-width: 330px;
+        max-height: 300px;
+        height: 300px;
+        width: 330px;
+        /* max-width: 75vw;
+        max-height: 80vh;
+        width: 75vw;
+        height: 80vw; */
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
+
+
+@media (max-width:1030px) {
+    .Heart-Icon {
+        position: absolute;
+        bottom: 3vw;
+        left: 17vw;
+        height: 15px;
+        width: 15px;
+    }
+
+    .Img{
+        max-width: 310px;
+        max-height: 300px;
+        height: 230px;
+        width: 230px;
+        /* max-width: 75vw;
+        max-height: 80vh;
+        width: 75vw;
+        height: 80vw; */
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    
+}
+
+@media (max-width:850px) {
+    .Heart-Icon {
+        position: absolute;
+        bottom: 5vw;
+        left: 37vw;
+        height: 15px;
+        width: 15px;
+    }
+
+    .Img{
+        /* max-width: 350px;
+        max-height: 350px;
+        height: 350px;
+        width: 350px; */
+        /* max-width: 75vw;
+        max-height: 80vh;
+        width: 75vw;
+        height: 80vw; */
+        max-width: 50vw;
+        max-height: 50vw;
+        height: 44.5vw;
+        width: 45.5vw;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+    
+}
+
+@media (max-width:600px) {
+    .Heart-Icon {
+        position: absolute;
+        bottom: 11vw;
+        left: 70vw;
+        height: 15px;
+        width: 15px;
+    }
+
+    .Img{
+        
+        max-width: 90vw;
+        max-height: 80vh;
+        width: 90vw;
+        height: 80vw;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
